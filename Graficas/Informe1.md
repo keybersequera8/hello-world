@@ -31,40 +31,49 @@ Por otra parte, los algoritmos que usan la estrategia de Divide and Conque, fuer
 
 ### Tabla que contiene los datos obtenidos de la corrida de los algoritmos de ordenamiento.
 
-----------------------------------------------------------------------------------------------
-| Algoritmo             |  1.000  |  5.000 | 10.000 | 20.000 | 40.000  | 80.000   | 160.000  |
-|----------------------	|-------  |--------|--------|--------|-------- |----------|----------|
-| Insertion            	|143.74   |3934.10 |16380.12|60879.13|218773.51|1080815.38|4234563.75| Tiempo Promedio
-|						|23.06    |172.39  |296.00	|5523.38 |11269.06 |112080.59 |320653.35 | Desviacion estandar
-|                       |         |        |        |        |         |          |          |
-| Merge Sort           	|9.37     |82.81   |167.18  |356.23  |693.70   |1701.44   |4073.19   | Tiempo Promedio
-|						|8.07	  |12.86   |16.55   |59.29   |33.10    |124.89    |398.53    | Desviacion estandar
-|                       |         |        |        |        |         |          |          |
-| Heap Sort            	|20.31    |129.68  |285.92  |595.27  |1168.67  |2900.56   |4681.58   | Tiempo Promedio
-|						|7.55     |16.55   |32.98   |62.69   |40.88    |408.83    |390.86    | Desviacion estandar
-|                       |         |        |        |        |         |          |          |
-| Quicksort            	|9.37     |46.87   |101.55  |209.36  |406.23   |1007.07   |2183.98   | Tiempo Promedio
-|						|8.07     |10.42   |8.24    |16.79   |23.29    |134.86    |206.53    | Desviacion estandar
-|                       |         |        |        |        |         |          |          |
-| Randomized Quicksort 	|10.94    |56.25   |132.80  |281.23  |523.40   |1297.81   |2438.78   | Tiempo Promedio
-|						|7.55     |8.07    |18.41   |54.12   |30.59    |202.95    |385.97    | Desviacion estandar
-|                       |         |        |        |        |         |          |          |
-| Counting sort        	|3.12     |12.50   |17.19   |35.94   |68.74    |171.73    |436.25    | Tiempo Promedio
-|						|6.59     |6.59    |4.94    |7.55    |8.06     |28.37     |56.37	 | Desviacion estandar
-|                       |         |        |        |        |         |          |          |
-| Radix sort           	|9.37     |315.60  |2010.80 |8230.68 |35021.03 |191334.98 |546737.64 | Tiempo Promedio
-|						|8.07     |17.74   |47.19   |256.08  |326.58   |61733.62  |127839.83 | Desviacion estandar
-----------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------------------------------
+| Algoritmo             |  1.000  |  5.000 | 10.000 | 20.000 | 40.000  | 80.000   | 160.000  |                      |
+|----------------------	|-------  |--------|--------|--------|-------- |----------|----------|----------------------|
+| Insertion            	|143.74   |3934.10 |16380.12|60879.13|218773.51|1080815.38|4234563.75| Tiempo Promedio      |
+|						|23.06    |172.39  |296.00	|5523.38 |11269.06 |112080.59 |320653.35 | Desviacion estandar  |
+|                       |         |        |        |        |         |          |          |                      |
+| Merge Sort           	|9.37     |82.81   |167.18  |356.23  |693.70   |1701.44   |4073.19   |                      |
+|						|8.07	  |12.86   |16.55   |59.29   |33.10    |124.89    |398.53    |                      | 
+|                       |         |        |        |        |         |          |          |                      |
+| Heap Sort            	|20.31    |129.68  |285.92  |595.27  |1168.67  |2900.56   |4681.58   |                      |
+|						|7.55     |16.55   |32.98   |62.69   |40.88    |408.83    |390.86    |                      |
+|                       |         |        |        |        |         |          |          |                      |
+| Quicksort            	|9.37     |46.87   |101.55  |209.36  |406.23   |1007.07   |2183.98   |                      |
+|						|8.07     |10.42   |8.24    |16.79   |23.29    |134.86    |206.53    |                      |
+|                       |         |        |        |        |         |          |          |                      |
+| Randomized Quicksort 	|10.94    |56.25   |132.80  |281.23  |523.40   |1297.81   |2438.78   |                      |
+|						|7.55     |8.07    |18.41   |54.12   |30.59    |202.95    |385.97    |                      |
+|                       |         |        |        |        |         |          |          |                      |
+| Counting sort        	|3.12     |12.50   |17.19   |35.94   |68.74    |171.73    |436.25    |                      |
+|						|6.59     |6.59    |4.94    |7.55    |8.06     |28.37     |56.37	 |                      |
+|                       |         |        |        |        |         |          |          |                      |
+| Radix sort           	|9.37     |315.60  |2010.80 |8230.68 |35021.03 |191334.98 |546737.64 |                      |
+|						|8.07     |17.74   |47.19   |256.08  |326.58   |61733.62  |127839.83 |                      |
+---------------------------------------------------------------------------------------------------------------------
 
 ### Graficas
 
 
+![alt text](https://github.com/keybersequera8/hello-world/blob/master/Graficas/Insertion%20Sort.png)
 
-![alt text](https://github.com/keybersequera8/hello-world/blob/master/Graficas/Average%20Running%20Times.png)
+![alt text](https://github.com/keybersequera8/hello-world/blob/master/Graficas/Merge%20Sort.png)
 
+![alt text](https://github.com/keybersequera8/hello-world/blob/master/Graficas/Heap%20Sort.png)
+
+![alt text](https://github.com/keybersequera8/hello-world/blob/master/Graficas/Quicksort.png)
+
+![alt text](https://github.com/keybersequera8/hello-world/blob/master/Graficas/Randomized%20Quicksort.png)
 
 ![alt text](https://github.com/keybersequera8/hello-world/blob/master/Graficas/Counting%20Sort.png)
 
+![alt text](https://github.com/keybersequera8/hello-world/blob/master/Graficas/Radix%20Sort.png)
+
+![alt text](https://github.com/keybersequera8/hello-world/blob/master/Graficas/Average%20Running%20Times.png)
 
 
 ### Analisis de graficas
